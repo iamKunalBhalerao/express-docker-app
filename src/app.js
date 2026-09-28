@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: true }));
 const cart = new Map(); // Dummy storage for cart | contains product name and price
 
 app.get("/", (req, res) => {
-  res.send("Welcome to Express App build with Docker");
+  res.send("Welcome to Express App build with Optimized Docker");
 });
 
 app.post("/product/add", (req, res) => {

@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "node src/app.js"
   },
-  "keywords": [],
+  "keywords": ["docker", "express"],
   "type": "module",
   "dependencies": {
     "express": "^5.2.1"
